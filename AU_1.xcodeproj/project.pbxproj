@@ -13,7 +13,6 @@
 		83A9BB17297BDD5600EEC4F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A9BB15297BDD5600EEC4F7 /* Main.storyboard */; };
 		83A9BB19297BDD5700EEC4F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A9BB18297BDD5700EEC4F7 /* Assets.xcassets */; };
 		83A9BB1C297BDD5700EEC4F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A9BB1A297BDD5700EEC4F7 /* LaunchScreen.storyboard */; };
-		83A9BB26297BE6A400EEC4F7 /* Heart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A9BB25297BE6A400EEC4F7 /* Heart.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,7 @@
 		83A9BB18297BDD5700EEC4F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A9BB1B297BDD5700EEC4F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A9BB1D297BDD5700EEC4F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83A9BB25297BE6A400EEC4F7 /* Heart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Heart.jpg; path = ../../../Heart.jpg; sourceTree = "<group>"; };
+		83A9BB28297BE89C00EEC4F7 /* Heart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Heart.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +57,7 @@
 		83A9BB0E297BDD5500EEC4F7 /* AU_1 */ = {
 			isa = PBXGroup;
 			children = (
+				83A9BB27297BE89100EEC4F7 /* images */,
 				83A9BB0F297BDD5500EEC4F7 /* AppDelegate.swift */,
 				83A9BB11297BDD5500EEC4F7 /* SceneDelegate.swift */,
 				83A9BB13297BDD5600EEC4F7 /* ViewController.swift */,
@@ -65,9 +65,16 @@
 				83A9BB18297BDD5700EEC4F7 /* Assets.xcassets */,
 				83A9BB1A297BDD5700EEC4F7 /* LaunchScreen.storyboard */,
 				83A9BB1D297BDD5700EEC4F7 /* Info.plist */,
-				83A9BB25297BE6A400EEC4F7 /* Heart.jpg */,
 			);
 			path = AU_1;
+			sourceTree = "<group>";
+		};
+		83A9BB27297BE89100EEC4F7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				83A9BB28297BE89C00EEC4F7 /* Heart.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +137,6 @@
 			files = (
 				83A9BB1C297BDD5700EEC4F7 /* LaunchScreen.storyboard in Resources */,
 				83A9BB19297BDD5700EEC4F7 /* Assets.xcassets in Resources */,
-				83A9BB26297BE6A400EEC4F7 /* Heart.jpg in Resources */,
 				83A9BB17297BDD5600EEC4F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
